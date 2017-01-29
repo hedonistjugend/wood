@@ -1,0 +1,298 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-style: italic;
+}
+
+/*~ ~ ~ H E A D I N G S ~ ~ ~*/
+
+h1, h2 {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+}
+
+h2 {
+  text-indent: -1em;
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 70px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #FFD700;
+  text-align: center;
+  font-weight: 700;
+}
+
+.phones span {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+/*~ ~ ~ O V E R A L L ~ ~ ~*/
+
+.yellow {
+  color: #FFD700;
+}
+
+.black {
+  color: #000;
+}
+
+.white {
+  color: #fff;
+}
+
+.btn-yellow {
+  background-color: #FFD700;
+  color: #000;
+  font-weight: 700;
+  box-shadow: 0 2px 0 #D3B200;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  box-shadow: 0 2px 0 #aaa;
+  font-size: 16px;
+}
+
+.centered{
+    margin: 0 auto;
+}
+
+ /* ~ ~ ~ S L I D E S ~ ~ ~ */
+
+.hero {
+    background: url(../images/wood-work-hero.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #8B2323;
+    padding: 30px 0px 100px 0px;
+}
+
+.phones {
+  float: right;
+}
+
+.main-heading {
+  margin-top: 120px;
+}
+
+.about {
+  margin-top: 120px;
+}
+
+.about p {
+  margin-top: 30px;
+}
+
+.about h3 {
+  text-align: center;
+}
+
+.about .btn-lg {
+  padding: 20px 16px;
+  font-weight: 600;
+}
+
+
+.dialogs {
+  padding: 75px 0 50px 0;
+  background-image: -webkit-linear-gradient(89deg, #FFFDFE 0%, #CECECE 100%);
+  background-image: -o-linear-gradient(89deg, #FFFDFE 0%, #CECECE 100%);
+  background-image: linear-gradient(179deg, #FFFDFE 0%, #CECECE 100%);
+}
+
+.dialogs p {
+  margin-top: 40px;
+}
+
+.dialogs span {
+  margin-top: 20px;
+}
+
+.dialogs img {
+  padding-top: 20px;
+}
+
+a {
+  color: #000;
+  font-style: italic;
+  border-bottom: 1px dashed #000;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+ a:visited {
+   color: #000;
+   border-bottom: 1px dashed #000;
+   text-decoration: none;
+ }
+
+ .dialogs button {
+   margin-left: 20px;
+ }
+
+.why-us {
+  padding: 0 0 75px 0;
+  background-color: #000;
+  color: #fff;
+  background: url(../images/black-wood-bg.jpg);
+}
+
+.why-us h6{
+  margin: 25px 0;
+}
+
+.bookmark {
+  width: 100%;
+  height: 100px;
+  background: #CECECE;
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  margin-bottom: 100px;
+}
+
+.icon {
+  margin-top:50px;
+}
+
+.ready-to-work {
+  padding: 100px 0;
+  background-color: #FFD700;
+}
+
+.galery {
+  padding: 75px 0;
+}
+
+.galery p {
+  margin: 30px 0px;
+}
+
+.galery-grid img {
+  padding-bottom: 30px;
+}
+
+.refresh {
+  margin: 0 auto;
+}
+
+.how-we-work, .action {
+  background-color: #000;
+  padding: 75px 0;
+}
+
+.action {
+  background: url(../images/black-wood-bg.jpg);
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: #FFD700;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  margin-bottom: 30px;
+}
+
+.circle h3 {
+  color: #000;
+  padding-top: 20px;
+}
+
+.how-we-work p {
+  margin: 15px 0;
+}
+
+.yellow-form {
+  background-color: #FFD700;
+  padding: 40px 80px 30px;
+  color: #000;
+  border-radius: 8px;
+  box-shadow: 0 2px 40px 0 rgba(255,215,0,0.60);
+}
+
+.huge {
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 700;
+  color: #fff;
+}
+
+.yellow-form  p {
+  margin-top: 10px;
+}
+
+.yellow-form button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.huge-phone {
+  margin-top: 40px;
+}
+.huge-phone:nth-child(2){
+  margin-top: 20px;
+}
+
+.footer{
+  margin-top: 50px;
+  opacity: 0.5;
+}
+
+::-webkit-input-placeholder {
+  color: #000;
+}
+
+input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    padding: 5px 0px;
+    margin: 15px 0px;
+}
+
+.nice-border {
+  position:absolute;
+  width: 900px;
+  top: 70px;
+  left: 150px;
+  
+  border-style: dotted ;
+  border-image-source: url('../images/dots.svg');
+  border-image-slice: 33% 33%;
+  border-image-repeat: round;
+  border-width: 0 0 13px 0;
+}
